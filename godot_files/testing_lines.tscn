@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://lines.gd" type="Script" id=1]
+
+[node name="testing_lines" type="Spatial"]
+
+[node name="lines" type="Spatial" parent="."]
+script = ExtResource( 1 )

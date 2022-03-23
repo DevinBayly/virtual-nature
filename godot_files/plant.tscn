@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://code.gd" type="Script" id=1]
+
+[node name="plant" type="Spatial"]
+
+[node name="code" type="Spatial" parent="."]
+script = ExtResource( 1 )
+startingHeight = 0
+deltaHeight = 10
+dst = 4
