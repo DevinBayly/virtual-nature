@@ -55,7 +55,8 @@ func _ready():
 	var mi2 = MeshInstance.new()
 	mi2.mesh = am2
 	mi2.set_surface_material(0,matl)
-	
+	ResourceSaver.save("res://plant_lines.tres",am2)
+	ResourceSaver.save("res://plant_points.tres",am)
 	add_child(mi2)
 	pass # Replace with function body.
 

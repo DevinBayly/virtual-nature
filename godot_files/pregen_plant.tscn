@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://plant_lines.tres" type="ArrayMesh" id=1]
+[ext_resource path="res://plant_points.tres" type="ArrayMesh" id=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_use_point_size = true
+params_point_size = 5.0
+albedo_color = Color( 0.690196, 0.937255, 0.0823529, 1 )
+
+[node name="pregen_plant" type="Spatial"]
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 0.165322, 0, 0, 0, 0.165322, 0, 0, 0, 0.165322, 0, 0, 0 )
+mesh = ExtResource( 2 )
+material/0 = SubResource( 1 )
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( 0.165801, 0, 0, 0, 0.165801, 0, 0, 0, 0.165801, 0, 0, 0 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../MeshInstance")
+material/0 = null

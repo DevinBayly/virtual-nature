@@ -44,7 +44,7 @@ func branch():
 	newPlant.numBranches = numBranches
 	newPlant.plantList = plantList
 	plantList.append(newPlant)
-
+	
 	newPlant.init()
 
 
