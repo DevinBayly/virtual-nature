@@ -2,5 +2,5 @@
 
 [resource]
 flags_use_point_size = true
-params_point_size = 4.0
-albedo_color = Color( 1, 0.0470588, 0, 1 )
+params_point_size = 1.5
+albedo_color = Color( 0.509804, 0.780392, 0.286275, 1 )

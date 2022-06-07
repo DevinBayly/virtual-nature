@@ -1,6 +1,6 @@
 extends Node
 
-class_name Plantb
+class_name Plant
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"

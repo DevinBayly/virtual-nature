@@ -1,0 +1,12 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+length = 20.0
+loop = true
+tracks/0/type = "transform"
+tracks/0/path = NodePath("Camera")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = PoolRealArray( 0, 1, -0.358183, 0, -9.52714, 0, 0, 0, 1, 1, 1, 1 )

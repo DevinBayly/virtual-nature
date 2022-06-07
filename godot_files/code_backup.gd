@@ -22,10 +22,10 @@ func _ready():
 		var p = plant.new()
 		p.o = Vector3(0,startingHeight,0)
 		var angle = randf()*2*PI
-		p.t  = Vector3(cos(angle)*dst,deltaHeight*randf(),sin(angle)*dst) + p.o
+		p.t  = Vector3(cos(angle)*dst,deltaHeight,sin(angle)*dst) + p.o
 		p.gen = generations
-		p.numBranches = int(branches*randf())
-		p.dh = deltaHeight*randf()
+		p.numBranches = branches
+		p.dh = deltaHeight
 		p.plantList = allPoints
 		p.dst = dst
 		p.init()

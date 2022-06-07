@@ -12,15 +12,21 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "Plant",
 "language": "GDScript",
+"path": "res://plant_backup.gd"
+}, {
+"base": "Node",
+"class": "Plantb",
+"language": "GDScript",
 "path": "res://plant.gd"
 } ]
 _global_script_class_icons={
-"Plant": ""
+"Plant": "",
+"Plantb": ""
 }
 
 [application]
 
-config/name="virtual_nature"
+config/name="test_development"
 config/icon="res://icon.png"
 
 [physics]

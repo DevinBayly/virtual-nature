@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://plant_lines.tres" type="ArrayMesh" id=1]
+[ext_resource path="res://plant_points.tres" type="ArrayMesh" id=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="plant_lines" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+skeleton = NodePath("../..")
+material/0 = null
+
+[node name="plant_points" type="MeshInstance" parent="."]
+mesh = ExtResource( 2 )
+skeleton = NodePath("../..")
+material/0 = null
